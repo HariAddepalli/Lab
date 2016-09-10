@@ -92,7 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\WebSite\WebSite.csproj">
+    <ProjectReference Include="..\WebSite\WebSite.csproj">
       <Project>{8FCF2EE1-DD3B-4C6C-A3AA-9D52E85D4611}</Project>
       <Name>WebSite</Name>
     </ProjectReference>
