@@ -11,8 +11,7 @@ namespace WebApp.Controllers
     {
         public ActionResult Index()
         {
-            var obj = new JavaScriptSerializer().Serialize(new { Name = "hari" });
-            return View("");
+            return View();
         }
 
         public ActionResult About()
