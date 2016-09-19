@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-3.0.0.slim.js"></script>
+    <script src="Scripts/jquery-3.0.0.js"></script>
+    <script src="Scripts/tether.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="App/app.js"></script>
+    <script src="App/Controller/AppController.js"></script>
+    <script src="App/Controller/HomeController.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/tether.css" rel="stylesheet" />
+</head>
+
+<body ng-app="app" ng-controller="AppController" >
+    <div class="card-header">
+        <ul>
+            <li>Home</li>
+        </ul>
+    </div>
+    <div ng-view></div>
+    <div class="card-footer">
+
+    </div>
+</body>
+</html>
