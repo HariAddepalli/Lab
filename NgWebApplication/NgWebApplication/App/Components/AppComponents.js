@@ -1,0 +1,1 @@
+﻿mainApp.component("appComponent", {});
