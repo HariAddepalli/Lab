@@ -1,11 +1,11 @@
 ﻿<div>
     <hr />
-    <h1>Home Contents loads here</h1>
+    <h1>Home Contents loads here - {{vm.yourName}}</h1>
     <div>
-        <div ui-sref=".left"> Left content loads here</div>
+        <a ui-sref=".left"> Left content loads here</a>
     </div>
     <div>
-        <div ui-sref=".right"> Right content loads here</div>
+        <a ui-sref=".right"> Right content loads here</a>
     </div>
 </div>
-<div ui-view=""></div>
+<div ui-view="">ui view loads here</div>

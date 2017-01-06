@@ -1,6 +1,6 @@
 ﻿var mainApp = angular.module("mainApp", ["ui.router"]);
-mainApp.config(function ($stateProvider, $compileProvider, $locationProvider, $urlRouterProvider, $qProvider) {
-    $urlRouterProvider.otherwise("/home")
+mainApp.config(function ($stateProvider, $compileProvider, $locationProvider, $qProvider) {
+
     $stateProvider
     .state("home", {
         url: "/",
